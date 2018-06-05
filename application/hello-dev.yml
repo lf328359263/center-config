@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello
+
+server:
+  poot: 8001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1.scdata.top/eureka,http://peer2.scdata.top/eureka,http://peer3.scdata.top/eureka
